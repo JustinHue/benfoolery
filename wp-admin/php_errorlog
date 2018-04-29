@@ -1,0 +1,37 @@
+[14-Feb-2018 23:50:15 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Mgsisk\Webcomic\Collection\Settings\hook_sanitize_field_name() must be of the type array, null given, called in /home/justinh9/public_html/wp-includes/class-wp-hook.php on line 288 and defined in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/settings/general.php:351
+Stack trace:
+#0 /home/justinh9/public_html/wp-includes/class-wp-hook.php(288): Mgsisk\Webcomic\Collection\Settings\hook_sanitize_field_name(NULL)
+#1 /home/justinh9/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(NULL, Array)
+#2 /home/justinh9/public_html/wp-includes/formatting.php(4314): apply_filters('sanitize_option...', NULL, 'webcomic2', NULL)
+#3 /home/justinh9/public_html/wp-includes/option.php(454): sanitize_option('webcomic2', NULL)
+#4 /home/justinh9/public_html/wp-includes/option.php(345): add_option('webcomic2', NULL, '', 'yes')
+#5 /home/justinh9/public_html/wp-admin/options.php(215): update_option('webcomic2', NULL)
+#6 {main}
+  thrown in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/settings/general.php on line 351
+[15-Feb-2018 02:14:52 UTC] WordPress database error Unknown column '' in 'field list' for query UPDATE `wp_fo_elements` SET `` = '1' WHERE `id` = 'NaN' made by do_action('wp_ajax_edit_custom_elements'), WP_Hook->do_action, WP_Hook->apply_filters, FoSettingsPage->edit_custom_elements_callback
+[15-Feb-2018 03:17:16 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to webcomic_collection_exists() must be of the type string, null given, called in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/metabox/media.php on line 35 and defined in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/globals.php:1190
+Stack trace:
+#0 /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/metabox/media.php(35): webcomic_collection_exists(NULL)
+#1 /home/justinh9/public_html/wp-includes/class-wp-hook.php(286): Mgsisk\Webcomic\Collection\MetaBox\hook_add_box_media_help('')
+#2 /home/justinh9/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/justinh9/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/justinh9/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-setup-wizard.php(265): do_action('admin_head')
+#5 /home/justinh9/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-setup-wizard.php in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/globals.php on line 1190
+[15-Feb-2018 03:19:47 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to webcomic_collection_exists() must be of the type string, null given, called in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/metabox/media.php on line 35 and defined in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/globals.php:1190
+Stack trace:
+#0 /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/metabox/media.php(35): webcomic_collection_exists(NULL)
+#1 /home/justinh9/public_html/wp-includes/class-wp-hook.php(286): Mgsisk\Webcomic\Collection\MetaBox\hook_add_box_media_help('')
+#2 /home/justinh9/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/justinh9/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/justinh9/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-setup-wizard.php(265): do_action('admin_head')
+#5 /home/justinh9/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-setup-wizard.php in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/globals.php on line 1190
+[25-Feb-2018 22:42:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/justinh9/public_html/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
+[25-Feb-2018 22:42:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/justinh9/public_html/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
+[25-Feb-2018 22:43:39 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/justinh9/public_html/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
+[25-Feb-2018 23:24:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/justinh9/public_html/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
+[25-Feb-2018 23:55:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/justinh9/public_html/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
+[26-Feb-2018 00:20:50 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/justinh9/public_html/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
+[18-Mar-2018 22:10:15 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/justinh9/public_html/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
+[18-Mar-2018 22:13:30 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/justinh9/public_html/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
+[18-Mar-2018 23:27:29 UTC] PHP Parse error:  syntax error, unexpected 'comment_date' (T_STRING) in /home/justinh9/public_html/wp-content/themes/comicpress/functions/comment-functions.php on line 131
+[01-Apr-2018 20:01:38 UTC] PHP Warning:  in_array() expects parameter 2 to be array, boolean given in /home/justinh9/public_html/wp-content/plugins/ultimate-social-media-icons/views/sfsi_option_view7.php on line 214
