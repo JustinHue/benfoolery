@@ -1,0 +1,18 @@
+2018-02-15T03:17:16+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to webcomic_collection_exists() must be of the type string, null given, called in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/metabox/media.php on line 35 and defined in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/globals.php:1190
+Stack trace:
+#0 /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/metabox/media.php(35): webcomic_collection_exists(NULL)
+#1 /home/justinh9/public_html/wp-includes/class-wp-hook.php(286): Mgsisk\Webcomic\Collection\MetaBox\hook_add_box_media_help('')
+#2 /home/justinh9/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/justinh9/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/justinh9/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-setup-wizard.php(265): do_action('admin_head')
+#5 /home/justinh9/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-setup-wizard.php
+
+2018-02-15T03:19:47+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to webcomic_collection_exists() must be of the type string, null given, called in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/metabox/media.php on line 35 and defined in /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/globals.php:1190
+Stack trace:
+#0 /home/justinh9/public_html/wp-content/plugins/webcomic/lib/collection/metabox/media.php(35): webcomic_collection_exists(NULL)
+#1 /home/justinh9/public_html/wp-includes/class-wp-hook.php(286): Mgsisk\Webcomic\Collection\MetaBox\hook_add_box_media_help('')
+#2 /home/justinh9/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/justinh9/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/justinh9/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-setup-wizard.php(265): do_action('admin_head')
+#5 /home/justinh9/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-setup-wizard.php
+

@@ -1,0 +1,12 @@
+fTravel 1.0.2, 2018-02-03
+------------------------
+- add animations appearing effects
+- add footer menu
+
+fTravel 1.0.1, 2017-11-21
+------------------------
+- remove holiday tag
+
+fTravel 1.0.0, 2017-06-29
+------------------------
+- Initial release

@@ -1,0 +1,32 @@
+/* This Awesome CSS file was created by Font Orgranizer from Hive :) */
+
+@import url('//fonts.googleapis.com/css?family=Actor|Alef|Russo+One');
+
+@font-face {
+    font-family: 'Les Paul Lined';
+    
+    src: url('//justinhellsten.com/wp-content/uploads/font-organizer/LesPaul-Lined.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Les Paul Font';
+    
+    src: url('//justinhellsten.com/wp-content/uploads/font-organizer/LesPaul-Normal.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'SF Arch Rival';
+    
+    src: url('//justinhellsten.com/wp-content/uploads/font-organizer/SF_Arch_Rival.ttf') format('truetype'),
+url('//justinhellsten.com/wp-content/uploads/font-organizer/SF_Arch_Rival-1.ttf') format('truetype');
+font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Comic';
+    
+    src: url('//justinhellsten.com/wp-content/uploads/font-organizer/Arial.ttf') format('truetype');
+font-weight: normal;
+}
